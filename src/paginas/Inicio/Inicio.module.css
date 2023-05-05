@@ -1,0 +1,64 @@
+.galeria {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
+    
+}
+
+.card {
+    /* display:inline-block; */
+    /* margin: none; */
+    height: auto;
+    /* width: 50%; */
+}
+
+.fold {
+    width: 100%;
+}
+
+@media (max-width: 2560px) {
+    .card {
+        width: 10%;
+    }
+}
+@media (max-width: 2200px) {
+    .card {
+        width: 12.5%;
+    }
+}
+@media (max-width: 1920px) {
+    .card {
+        width: 14.285714286%;
+    }
+}
+@media (max-width: 1680px) {
+    .card {
+        width: 16.666667%;
+    }
+}
+@media (max-width: 1200px) {
+    .card {
+        width: 20%;
+    }
+}
+@media (max-width: 992px) {
+    .card {
+        width: 25%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 25%;
+    }
+}
+
+@media (max-width: 640px) {
+    .card {
+        width: 33.333333%;
+    }
+}
+

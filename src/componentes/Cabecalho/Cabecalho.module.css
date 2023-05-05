@@ -1,0 +1,38 @@
+.cabecalho {
+    background-color: #222;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    padding: 121px;
+    
+}
+
+.div {
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.texto {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+
+}
+
+.h3 {
+    margin-bottom: 100px;
+}
+
+
+.titulo {
+    color: #fff;
+    /* position: absolute; */
+    align-items: flex-end;
+}
+
+.capa {
+    /* height: 200px; */
+    width: auto;
+}
