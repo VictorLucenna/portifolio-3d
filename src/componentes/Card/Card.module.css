@@ -24,9 +24,7 @@
 }
 
 .bfText {
-    /* position: absolute; */
-    /* align-items: center; */
-    /* color: aliceblue; */
+    font-size: 12px;
 }
 
 .bf:hover {

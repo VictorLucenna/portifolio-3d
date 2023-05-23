@@ -1,15 +1,16 @@
 import React from 'react'
 import styles from './Cabecalho.module.css'
 // import Navegador from '../Navegador'
-// import capaImagem from './capa.jpg'
+import capaImagem from './capa.jpg'
 
 export default function Cabecalho() {
   return (
     <div className={styles.div}>
-      {/* <img className={styles.capa} src={capaImagem} alt="capa" /> */}
+      <img className={styles.capa} src={capaImagem} alt="capa" />
       <div className={styles.texto}>
-        <h1 className={styles.titulo}>Victor Lucena</h1>
-        <h3 className={styles.h3} >3D Artist</h3>
+        <img className={styles.foto} src="assets/imagens/artist.jpg" alt="Artist" />
+        <h1 className={styles.nome}>Victor Lucena</h1>
+        <h4 className={styles.func} >Character Artist</h4>
 
       </div>
 

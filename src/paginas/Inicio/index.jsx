@@ -10,6 +10,8 @@ export default function Inicio() {
         <Card id="01" />
         <Card id="02" />
         <Card id="03" />
+        <Card id="04" />
+        <Card id="05" />
       </div>
     </div>
   )

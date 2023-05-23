@@ -1,7 +1,7 @@
 [
     {
         "id": "01",
-        "titulo": "Zé da Manga"
+        "titulo": "Sinestro"
     },
     {
         "id": "02",
@@ -10,5 +10,13 @@
     {
         "id":"03",
         "titulo": "Marcus - Metal Slug"
+    },
+    {
+        "id":"04",
+        "titulo": "Old Man"
+    },
+    {
+        "id":"05",
+        "titulo": "Deadpool"
     }
 ]
