@@ -1,6 +1,14 @@
 [
     {
-        "id": 1,
-        "titulo": "Sinestro"
+        "id": "01",
+        "titulo": "Zé da Manga"
+    },
+    {
+        "id": "02",
+        "titulo": "Dwarf"
+    },
+    {
+        "id":"03",
+        "titulo": "Marcus - Metal Slug"
     }
 ]
