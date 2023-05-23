@@ -1,60 +1,15 @@
 import React from 'react'
-import posts from '../../assets/json/posts.json'
+// import posts from '../../assets/json/posts.json'
 import styles from './Inicio.module.css'
+import Card from '../../componentes/Card'
 
 export default function Inicio() {
   return (
     <div className={styles.container}>
       <div className={styles.galeria}>
-        <div className={styles.card}>
-          <img className={styles.fold} src={'assets/posts/01/capa.jpg'} alt="Foto da capa" />
-        </div>
-        <div className={styles.card}>
-          <img className={styles.fold} src={'assets/posts/01/capa.jpg'} alt="Foto da capa" />
-        </div>
-        <div className={styles.card}>
-          <img className={styles.fold} src={'assets/posts/01/capa.jpg'} alt="Foto da capa" />
-        </div>
-        <div className={styles.card}>
-          <img className={styles.fold} src={'assets/posts/01/capa.jpg'} alt="Foto da capa" />
-        </div>
-        <div className={styles.card}>
-          <img className={styles.fold} src={'assets/posts/01/capa.jpg'} alt="Foto da capa" />
-        </div>
-        <div className={styles.card}>
-          <img className={styles.fold} src={'assets/posts/01/capa.jpg'} alt="Foto da capa" />
-        </div>
-        <div className={styles.card}>
-          <img className={styles.fold} src={'assets/posts/01/capa.jpg'} alt="Foto da capa" />
-        </div>
-        <div className={styles.card}>
-          <img className={styles.fold} src={'assets/posts/01/capa.jpg'} alt="Foto da capa" />
-        </div>
-        <div className={styles.card}>
-          <img className={styles.fold} src={'assets/posts/01/capa.jpg'} alt="Foto da capa" />
-        </div>
-        <div className={styles.card}>
-          <img className={styles.fold} src={'assets/posts/01/capa.jpg'} alt="Foto da capa" />
-        </div>
-        <div className={styles.card}>
-          <img className={styles.fold} src={'assets/posts/01/capa.jpg'} alt="Foto da capa" />
-        </div>
-        <div className={styles.card}>
-          <img className={styles.fold} src={'assets/posts/01/capa.jpg'} alt="Foto da capa" />
-        </div>
-        <div className={styles.card}>
-          <img className={styles.fold} src={'assets/posts/01/capa.jpg'} alt="Foto da capa" />
-        </div>
-        <div className={styles.card}>
-          <img className={styles.fold} src={'assets/posts/01/capa.jpg'} alt="Foto da capa" />
-        </div>
-        <div className={styles.card}>
-          <img className={styles.fold} src={'assets/posts/01/capa.jpg'} alt="Foto da capa" />
-        </div>
-        <div className={styles.card}>
-          <img className={styles.fold} src={'assets/posts/01/capa.jpg'} alt="Foto da capa" />
-        </div>
-
+        <Card id="01" />
+        <Card id="02" />
+        <Card id="03" />
       </div>
     </div>
   )
