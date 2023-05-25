@@ -1,0 +1,12 @@
+.container {
+    margin-inline: 300px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 992px) {
+    .container {
+        margin-inline: 10px;
+    }
+}
