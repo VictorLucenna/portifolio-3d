@@ -4,6 +4,7 @@
     height: auto;
     /* width: 50%; */
     position: relative;
+    object-fit: cover;
 
 }
 
@@ -24,7 +25,10 @@
 }
 
 .bfText {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: end;
+    
 }
 
 .bf:hover {
