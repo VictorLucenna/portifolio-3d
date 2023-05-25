@@ -6,7 +6,7 @@ export default function MenuNav() {
   return (
     <nav className={styles.menu}>
 
-        <NavLink className={styles.link} to="/">3D Works</NavLink>
+        <NavLink className={styles.link} to="/">Works</NavLink>
         <NavLink className={styles.link} to="/aboutme">About Me</NavLink>
         <NavLink className={styles.link} to="/contact">Contact</NavLink>
 
