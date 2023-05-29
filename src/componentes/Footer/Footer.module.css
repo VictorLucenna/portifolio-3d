@@ -1,0 +1,13 @@
+.footer {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 55px;
+    font-size: 14px;
+    justify-self: center;
+    align-items: center;
+}
+
+.copyR { 
+    margin-bottom: 20px;
+}

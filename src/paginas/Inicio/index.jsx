@@ -1,7 +1,8 @@
 import React from 'react'
-// import posts from '../../assets/json/posts.json'
 import styles from './Inicio.module.css'
 import Card from '../../componentes/Card'
+import posts from '../../assets/json/posts.json'
+import Footer from '../../componentes/Footer'
 
 export default function Inicio() {
   return (
@@ -12,7 +13,11 @@ export default function Inicio() {
         <Card id="03" />
         <Card id="04" />
         <Card id="05" />
+        {posts.map(post => <Card key={post.id} id={`${post.id}`} />)}
+        {posts.map(post => <Card key={post.id} id={`${post.id}`} />)}
       </div>
+
+      <Footer />
     </div>
   )
 }
