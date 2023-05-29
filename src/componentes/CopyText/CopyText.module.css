@@ -1,0 +1,40 @@
+.div {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    padding: 0px;
+    margin-bottom: 22px;
+}
+
+.input {
+    flex: 1;
+    background-color: transparent;
+    /* border: 0px; */
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    width: 350px;
+    border-color: white;
+    font-size: 16px;
+    /* border-bottom-color: aquamarine; */
+    /* border-left-width: 50px; */
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.button {
+    margin-left: -40px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media (min-width: 1100px) {
+    .div {
+        width: 400px;
+    }
+}
