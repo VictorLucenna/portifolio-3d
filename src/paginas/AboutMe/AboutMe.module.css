@@ -1,0 +1,16 @@
+/* .foto {
+    width: 0px;
+    height: 700px;
+    margin-right: 15px;
+}
+
+@media (max-width: 992px) {
+    .foto {
+        width: 0;
+    }
+} */
+
+p {
+    font-weight: 300;
+    line-height: 21px;
+}

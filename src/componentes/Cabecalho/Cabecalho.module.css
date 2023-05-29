@@ -1,45 +1,53 @@
-.cabecalho {
-    background-color: #222;
-    justify-content: center;
-    text-align: center;
-    color: aliceblue;
-    padding: 121px;
-    
-}
-
 .div {
     justify-content: center;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     min-height: 340px;
-    max-height: 400px;
+    max-height: 200px;
+    height: 200px;
+    /* transition: height 0.3 ease-in-out;
+    transition: max-height 0.3 ease-in-out; */
+    overflow: hidden;
     
 }
 
+/* .divAboutMe {
+    max-height: 400px;
+    height: 400px;
+} */
+
 .foto {
-    height: 130px;
+    height: 0;
     border-radius: 100%;
+    transition: height 0.3s ease-in-out;
+}
+
+.fotoAboutMe {
+
+    height: 200px;
+
 }
 
 .texto {
     color: #fff;
     position: absolute;
     text-align: center;
+    
 
 }
 
 .func {
     margin-top: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     font-weight: 500;
-    color: #c7c7c7;
+    color: #d4d4d4;
 }
 
 
 .nome {
     color: #fff;
     /* position: absolute; */
-    align-items: flex-end;
+    /* align-items: flex-end; */
     margin: 0;
 }
 

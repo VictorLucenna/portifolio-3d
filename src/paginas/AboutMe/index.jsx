@@ -1,35 +1,36 @@
 import React from 'react'
-import styles from './AboutMe.module.css'
 import Container from '../../componentes/Container'
+import styles from './AboutMe.module.css'
 
 export default function AboutMe() {
+
   return (
     <Container>
-      <div>
-        <img src="" alt="My PT" />
+
+      <div className={styles.text}>
+
+        <p>Hi everyone,</p>
+
+        <p>My name is Victor and I am a 3D modeler passionate about art, curious, and always eager to learn new things. With an unwavering passion for pushing the boundaries of creativity, I constantly seek to expand my knowledge and skills in the field of 3D modeling.</p>
+
+        <p>From an early age, I discovered that my true calling was in transforming abstract ideas into beautiful three-dimensional representations. Through 3D modeling, I can breathe life into concepts and images, creating a virtual universe that captivates and inspires.</p>
+
+        <p>My insatiable curiosity drives me to always seek out new techniques, technologies, and emerging trends in the industry. I enjoy challenging myself to learn new things and enhance my expertise in cutting-edge 3D modeling software. I am always open to new projects that allow me to explore different styles and approaches, expanding my artistic vision.</p>
+
+        <p>In addition to 3D modeling, I have an interest in related areas such as animation, illustration, and music. I believe that this multidisciplinary approach enriches my work, enabling me to create more comprehensive and immersive visual experiences.</p>
+
+        <p>On this website, you will find a selection of my best projects, where I have dedicated time and effort to achieve exceptional results. Each 3D model I have created is a unique piece, carefully crafted to convey messages and tell stories in visually impactful ways.</p>
+
+        <p>I invite you to explore my portfolio and delve into my world of 3D creations. If you are looking for a curious 3D modeler passionate about art and always seeking new challenges, I am ready to collaborate and bring your ideas to life.</p>
+
+        <p>Thank you for visiting my website, and I hope to work with you on an exciting project soon.</p>
+
+        <p>Cheers,</p>
+
+        <p>Victor.</p>
+
       </div>
-      <div>
-        <p>
-          <p>Olá a todos!
-          </p>
-          <p>Meu nome é Victor e sou um modelador 3D apaixonado por arte.
-          </p>
-          <p>Curioso e sempre em busca de novos desafios. Com uma paixão incansável por explorar os limites da criatividade, busco constantemente expandir meus conhecimentos e habilidades na área de modelagem 3D.
-          </p>
-          <p> Desde cedo, descobri que minha verdadeira vocação estava em transformar ideias abstratas em belas representações tridimensionais. Através da modelagem 3D, posso dar vida a conceitos e imagens, criando um universo virtual que cativa e inspira.
-          </p>
-          <p> Minha curiosidade insaciável impulsiona-me a buscar sempre novas técnicas, tecnologias e tendências emergentes na indústria. Gosto de me desafiar a aprender coisas novas e aprimorar minha expertise em softwares de modelagem 3D de última geração. Estou sempre aberto a novos projetos que me permitam explorar diferentes estilos e abordagens, expandindo minha visão artística.
-          </p>
-          <p> Além da modelagem 3D, tenho interesse em áreas relacionadas, como animação, ilustração e design gráfico. Acredito que essa abordagem multidisciplinar enriquece meu trabalho, permitindo-me criar experiências visuais mais completas e imersivas.
-          </p>
-          <p> Neste site, você encontrará uma seleção dos meus melhores projetos, nos quais dediquei tempo e dedicação para alcançar resultados excepcionais. Cada modelo 3D que criei é uma peça única, cuidadosamente elaborada para transmitir mensagens e contar histórias de forma visualmente impactante.
-          </p>
-          <p> Convido você a explorar meu portfólio e mergulhar no meu mundo de criações 3D. Se você estiver procurando por um modelador 3D curioso, apaixonado por arte e sempre em busca de novos desafios, estou pronto para colaborar e transformar suas ideias em realidade.
-          </p>
-          <p> Obrigado por visitar meu site e espero poder trabalhar com você em um projeto emocionante em breve.
-          </p>
-        </p>
-      </div>
+
     </Container>
   )
 }
