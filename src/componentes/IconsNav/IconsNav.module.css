@@ -1,0 +1,28 @@
+:root {
+    --cor-fundo: #ffffff;
+}
+
+.rc{
+    padding: 10px;
+    background-color: var(--cor-fundo);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    
+}
+
+.rc:hover {
+    background-color: #ffffff;
+    
+}
+
+.menuIcons {
+    display: inline-flex;
+    column-gap: 10px;
+    
+}
+
+
+.menuIcons:hover {
+    --cor-fundo:  #868686;
+}
