@@ -27,7 +27,7 @@ export default function CopyText({ text , icon }) {
             // alert('Texto copiado com sucesso!');
         }
 
-        setCopied(true);
+        setCopied(!copied);
     };
 
 
