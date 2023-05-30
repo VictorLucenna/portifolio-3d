@@ -10,6 +10,7 @@ export default function Cabecalho() {
 
   return (
     <div className={`${styles.div} ${aboutMe ? styles.divAboutMe : ""} `}>
+      <div className={styles.dg}></div>
       <img className={styles.capa} src={capaImagem} alt="capa" />
       <div className={styles.texto}>
         <img
@@ -21,6 +22,7 @@ export default function Cabecalho() {
         <h4 className={styles.func} >Character Artist | 3D Artist</h4>
 
       </div>
+
 
     </div>
 

@@ -5,9 +5,9 @@
     min-height: 340px;
     max-height: 200px;
     height: 200px;
-    /* transition: height 0.3 ease-in-out;
-    transition: max-height 0.3 ease-in-out; */
     overflow: hidden;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    position: relative;
     
 }
 
@@ -46,8 +46,6 @@
 
 .nome {
     color: #fff;
-    /* position: absolute; */
-    /* align-items: flex-end; */
     margin: 0;
 }
 
@@ -56,10 +54,19 @@
     height: auto;
     min-height: 400px;
     object-fit: cover;
-    /* position: absolute; */
     top: 0;
+}
 
-
-    /* width: ; */
-    /* background-size: auto; */
+.dg{
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+    /* object-fit: cover; */
+    /* overflow: hidden; */
+    /* background-size: cover; */
+    /* background-position: center; */
 }
